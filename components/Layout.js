@@ -4,6 +4,7 @@ import Search from "./Search";
 const Layout = ({ children }) => {
   return (
     <div>
+        <h1>Users</h1>
       <Navbar />
       <main>{children}</main>
       <Search />

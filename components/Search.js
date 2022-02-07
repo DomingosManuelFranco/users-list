@@ -1,7 +1,9 @@
-
-
 const Search = () => {
-  return <div>Search Bar</div>;
+  return <>
+  <form>
+      <input type='text' placeholder="Search users" />
+  </form>
+  </>;
 };
 
 export default Search;
