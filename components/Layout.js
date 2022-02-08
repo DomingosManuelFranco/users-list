@@ -4,10 +4,10 @@ import Search from "./Search";
 const Layout = ({ children }) => {
   return (
     <div>
-        <h1>Users</h1>
+      <h1>Users</h1>
+      <Search />
       <Navbar />
       <main>{children}</main>
-      <Search />
     </div>
   );
 };
