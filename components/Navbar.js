@@ -1,7 +1,9 @@
+import styles from './Main.moudule.css'
+
 function Navbar() {
   return (
     <>
-      <ul>
+      <ul className={styles.item}>
         <li>Reputation</li>
         <li>New Users</li>
         <li>Voters</li>
