@@ -1,9 +1,13 @@
 .main {
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
   list-style: none;
+  color: #151B32;
 }

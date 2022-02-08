@@ -1,4 +1,4 @@
-import styles from './Main.moudule.css'
+import styles from "./Main.module.css";
 
 function Navbar() {
   return (
